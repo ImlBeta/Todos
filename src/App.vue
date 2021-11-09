@@ -7,7 +7,7 @@
 <div id="main-container"> 
    <h2>Todos</h2>
   
-  <Todos v-bind="copyTodos" />
+  <Todos v-bind:todoslist="copyTodos" />
     
 </div>
 
