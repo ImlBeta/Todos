@@ -36,31 +36,26 @@ export default {
       todos: [
         {
           id: 0,
-          title:'comprar la cena',
+          title: 'comprar la cena',
           completed: false         
           },
-
          {
           id: 1,
-          title:'sacar a pasear al perro',
+          title: 'sacar a pasear al perro',
           completed: true         
           },
-
           {
           id: 2,
-          title:'Jugar Xbox',
+          title: 'Jugar Xbox',
           completed: false         
           }      
           ],
-      copyTodos: [
-
-      ]
-      
-      } 
+      copyTodos: []
+     } 
   },
   created() {
     this.copyTodos= [... this.todos];
-  } 
+  }, 
 
 }
 </script>
@@ -80,9 +75,27 @@ body {
 
 #main-container
 {
-border: solid 1px #ccc;
-width: 600px;
-margin: 100px auto;
+
+border: solid 5px #ccc;
+
+
+
+/* width: 600px; */
+
+/* margin: 100px auto; */
+
+/* border: 5px solid darkblue; */
+
+text-align: center;
+
+height: 50px;
+
+margin-top: 5px;
+
+margin-right: 5px;
+
+margin-bottom: 8px;
+
 
 }
 
